@@ -12,10 +12,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Specify the port nunmber the container should expose
-EXPOSE 80
+EXPOSE 8080
+
+ENV PORT=8080
 
 # Run the application
-# el que vimos en clase
-CMD ["uvicorn", "fastapiapp.main:app", "--host", "0.0.0.0", "--port", "80"]   
-# Para local
-#CMD ["fastapi", "run", "main.py", "--port", "80"]
+CMD ["uvicorn", "fastapiapp.main:app", "--host", "0.0.0.0", "--port", "${PORT}"]   
