@@ -3,7 +3,7 @@ from fastapi import FastAPI
 #import google.generativeai as genai
 #from dotenv import load_dotenv
 from transformers import pipeline
-import utils as ut
+from . import utils as ut
 
 app = FastAPI()
 

@@ -17,4 +17,4 @@ EXPOSE 8080
 ENV PORT=8080
 
 # Run the application
-CMD ["uvicorn", "fastapiapp.main:app", "--host", "0.0.0.0", "--port", "${PORT}"]   
+CMD uvicorn fastapiapp.main:app --host 0.0.0.0 --port ${PORT}
