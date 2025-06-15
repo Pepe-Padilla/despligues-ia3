@@ -28,11 +28,15 @@ Obtiene el factorial dado por un número de entrada:
 
 ![image](./images/factorial.png)
 
+![image](./images/postmanFactorial.png)
+
 ### Camelcase
 
 Se obtiene el camelcase de un texto para programar más bonito:
 
 ![image](./images/cammelcase.png)
+
+![image](./images/postmanCammelCase.png)
 
 ### Orders!
 
@@ -40,17 +44,23 @@ App donde el Imperio ejecuta sus órdenes:
 
 ![image](./images/order1.png) ![image](./images/order2.png)
 
+![image](./images/postmanOrder.png)
+
 ### Classification
 
 En un toque de increíble originalidad, en vez de dar sentimiento se clasifica si un comentario es positivo o negativo.
 
 ![image](./images/clasification.png)
 
+![image](./images/postmanClassification.png)
+
 ### Translate Español to English
 
 Con un poco más de cariño y después de una larga búsqueda de buenos modelos pequeños, dejo un pequeño traductor de español a inglés.
 
 ![image](./images/translateES2EN.png)
+
+![image](./images/postmanTranslate.png)
 
 ### Cloud RUN
 

@@ -39,7 +39,7 @@ def translate(query:str):
         for content in generated_text:
             if content["role"] == "assistant":
                 return {"content": content["content"]}
-    except:
+    except: 
         print(respuesta)
     
     return respuesta
