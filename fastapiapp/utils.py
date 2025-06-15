@@ -35,4 +35,4 @@ def order(order: Execution):
     if order.x and order.y:
         coords = "at coords [{order.x},{order.y}] "
 
-    return {"message": f"Order[{order.order}] executing {coords} in {order.timeCountDown} seconds"}
+    return {"message": f"Order[{order.order}] executing {coords}in {order.timeCountDown} seconds"}
